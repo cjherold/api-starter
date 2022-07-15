@@ -15,7 +15,7 @@ app.use(
 // handlebars if you want to render and send html
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
-app.set('views', '.');
+app.set('views', './views');
 
 // Connect with routes using / as a base
 app.use('/', routes);
